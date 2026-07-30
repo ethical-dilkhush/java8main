@@ -1,26 +1,38 @@
 # Java 8 Main
 
-A collection of Java 8 focused exercises and code samples covering the language features most valuable in day-to-day backend work.
+Practical Java 8 exercises and code samples focused on the language features
+that matter most in day-to-day backend work. Source files are organized under
+`Java8-main.zip`; unzip to explore the full exercise tree.
 
-## Purpose
-Java 8 introduced lambdas, streams, Optional, and new Date-Time APIs. This repo documents concise, practical examples for learning and review.
-
-## Key Features
-- Lambda expression examples
-- Stream API exercises
-- Date-time migration examples
-- Interface default methods
+- Lambda expressions and method references
+- Stream API basics through intermediate case scenarios
+- Date-Time API, Optional, and functional interfaces
+- Default / static interface methods
 
 ## Prerequisites
-- JDK 8+
-- Maven/Gradle optional for packaging
+
+- JDK 8 or newer
 
 ## Usage
-Read through the Java files directly or compile snippets via `javac` and `java`.
+
+```bash
+unzip Java8-main.zip
+cd Java8-main/src
+javac com/cg/java8/.../*.java
+java com.cg.java8.scenarios.<MainClass>
+```
+
+Compiled `.class` outputs are omitted from version-controlled source.
 
 ## Tech Stack
+
 - Java 8
-- JUnit for testable examples
+- JUnit for testable examples (where applicable)
+
+## Repo
+
+https://github.com/ethical-dilkhush/java8main
 
 ## License
-MIT
+
+MIT — see [LICENSE](LICENSE) for details.

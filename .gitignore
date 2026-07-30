@@ -1,0 +1,23 @@
+# Java / build artifacts
+*.class
+bin/
+build/
+dist/
+*.jar
+*.war
+
+# IDE / Eclipse
+.settings/
+.classpath
+.project
+.metadata/
+
+# OS / misc
+.DS_Store
+Thumbs.db
+
+# Archives — prevent future bulk uploads
+*.zip
+*.tar.gz
+*.rar
+*.7z
